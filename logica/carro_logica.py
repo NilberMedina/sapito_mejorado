@@ -3,7 +3,7 @@ class CarroLogica:
     def __init__(self, fila, columna, direccion=1, velocidad=15):
         self.fila = fila
         self.columna = columna
-        self.direccion = direccion  
+        self.direccion = direccion  # 1 = derecha, -1 = izquierda
         self.velocidad = velocidad
         self._contador = 0
     
